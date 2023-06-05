@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+     font-size: 11px;
+     align-items: center;
+}
+
+footer a { 
+     color: hsl(228, 45%, 44%);
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    border-radius: 20px;
+    padding:50px;
+}
+
+.left{
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width:110%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.l-score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    margin-left:15px;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.big-text{
+    color:hsl(0, 0%, 100%) ;
+    font-size: 60px;
+    font-weight:bold;
+    
+}
+
+.small-text{
+    color: hsl(241, 100%, 89%) ;
+    margin-left: 7px;
+}
+
+.left h3{
+    padding: 20px;
+    color: hsl(241, 100%, 89%);
+}
+
+.left h2{
+    padding-top: 30px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.left p{
+    text-align: center;
+    padding: 10px;
+    color:hsl(241, 100%, 89%) ;
+    font-size: 18px;
+}
+
+.right{
+    width: 110%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0,0.1);
+    
+}
+
+.right h2{
+    color: hsl(224, 30%, 27%);
+    margin: 15px 20px;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
+.r-score{
+    display: flex;
+    justify-content: space-between;
+    background-color:hsla(0, 100%, 67%, 0.1) ;
+    color: hsl(0, 100%, 67%);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-width: 20px;
+    border-radius: 10px;
+}
+
+.reaction{
+    display: flex;
+    margin-right: 5px;
+}
+
+.reaction img{
+    margin-right: 10px;
+}
+
+
+.black-text{
+    color: black;
+    font-weight: bold;
+}
+
+.gray{
+    color:gray ;
+    
+}
+
+span{
+    display: flex;
+}
+
+.r-memory{
+    display: flex;
+    justify-content: space-between;
+    background-color:hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-width: 20px;
+    border-radius: 10px;
+}
+
+.memory{
+    display: flex;
+    margin-right: 15px;
+}
+
+.memory img{
+    margin-right: 10px;
+}
+
+.r-verbal{
+    display: flex;
+    justify-content: space-between;
+    background-color:hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-width: 20px;
+    border-radius: 10px;
+}
+
+.verbal{
+    display: flex;
+    margin-right: 5px;
+}
+
+.verbal img{
+    margin-right: 10px;
+}
+
+.r-visual{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-width: 20px;
+    border-radius: 10px;
+}
+
+.visual{
+    display: flex;
+    margin-right: 5px;
+}
+
+.visual img{
+    margin-right: 10px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 15px 20%;
+    border: none;
+    outline: none;
+    color:hsl(0, 0%, 100%) ;
+    background-color:hsl(224, 30%, 27%) ;
+    border-radius: 40px;
+}
+
+@media(max-width:450px){
+    .index{
+        width: 100%;
+        flex-direction: column;
+        border-radius: 0px;
+        overflow: hidden;
+        padding:0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left{
+        width: auto;
+        border-radius: 0px;
+        border-bottom-left-radius: 30px; 
+        border-bottom-right-radius: 30px;
+        padding: 0px;
+        overflow: 0px;
+    }
+
+    .l-score{
+        text-align: center;
+        padding: 30px;
+    }
+
+    .right{
+        padding: 0px;
+        width: 95%;
+        padding: 0px;
+        box-shadow: none;
+
+    }
+
+
+    
+}
+
